@@ -1,4 +1,4 @@
-package two
+package day02
 
 import java.io.File
 
@@ -14,7 +14,7 @@ fun main() {
     val drawMap = mapOf(Pair('A', 'X'), Pair('B', 'Y'), Pair('C', 'Z'))
     val winMap = mapOf(Pair('A', 'Y'), Pair('B', 'Z'), Pair('C', 'X'))
 
-    val result = File("/Users/ilker.uzun/git/advent/day-two/src/main/kotlin/two/input.txt")
+    val result = File("/Users/ilker.uzun/git/advent/advent-2022/src/main/kotlin/day02/input.txt")
         .readLines()
         .filter { it.isNotEmpty() }
         .map {

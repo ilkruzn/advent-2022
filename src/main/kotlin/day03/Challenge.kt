@@ -1,9 +1,9 @@
-package three
+package day03
 
 import java.io.File
 
 fun main() {
-    val lines = File("/Users/ilker.uzun/git/advent/day-two/src/main/kotlin/three/input.txt")
+    val lines = File("/Users/ilker.uzun/git/advent/advent-2022/src/main/kotlin/day03/input.txt")
         .readLines()
 
     println(part1(lines))
